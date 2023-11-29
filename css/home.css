@@ -1,0 +1,20 @@
+html {
+  scroll-snap-type: y proximity;
+}
+section {
+  height: 100vh;
+  width: 100vw;
+  scroll-snap-align: start;
+  scroll-snap-stop: always;
+}
+
+section:nth-child(1) {
+  background-color: dodgerblue;
+  
+}
+section:nth-child(2) {
+  background-color: yellow;
+}
+section:nth-child(3) {
+  background-color: green;
+}
