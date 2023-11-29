@@ -1,20 +1,158 @@
-html {
-  scroll-snap-type: y proximity;
-}
 section {
   height: 100vh;
   width: 100vw;
-  scroll-snap-align: start;
-  scroll-snap-stop: always;
+  padding: 30px 48px 24px 48px;
+}
+/* main { */
+/* position: relative; */
+/* } */
+nav {
+  width: 100%;
+}
+.nav-row-1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.try-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  background-color: #bbbbbb;
+  border-radius: 20px;
+  width: 140px;
+  height: 40px;
+}
+
+.try-btn p {
+  font-size: 9px;
+  margin-left: 6px;
+  font-family: "Druk Wide Bold", sans-serif;
+}
+
+.btn {
+  border-radius: 50%;
+  padding: 8;
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sticky {
+  position: fixed;
+  right: 48px;
+}
+
+.text-bold {
+  font-family: "Neue Plak Extended";
+  font-size: 12px;
+  font-weight: 780;
+}
+
+.title-r {
+  font-family: "Druk Wide Bold";
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 153px;
+  padding: 35px 0;
+}
+
+.title-r div {
+  height: 2.5px;
+  border-radius: 1.75px;
+  width: 100%;
+  background-color: black;
+}
+
+.texts {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.texts p {
+  width: 200px;
+  font-family: "Neue Plak Extended";
+  line-height: 18px;
+}
+.texts p:nth-child(1) {
+  margin-right: 150px;
+}
+
+.mouse__container {
+  display: flex;
+  justify-content: center;
+}
+
+.mouse {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fashion-index {
+  position: absolute;
+  display: flex;
+  right: 20%;
+  bottom: 10%;
+}
+
+.fashion-index p {
+  font-family: "Druk Wide Bold";
+  font-size: 12px;
+}
+
+.nav__red {
+  font-family: "Druk Wide Bold";
+  margin-top: 2%;
+  font-size: 20px;
+}
+
+.first__text {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  margin-left: 60%;
+}
+
+.second__text {
+  margin-left: 8%;
+}
+
+.first {
+  font-family: "Neue Plak Extended";
+  font-size: 12px;
+}
+
+.second {
+  font-family: "Druk Wide Bold";
+  font-size: 30px;
+}
+
+.third {
+  font-family: "Neue Plak Extended";
+}
+
+.cat-text__first {
+  margin-top: 30%;
+}
+
+.cat-text__first p {
+  font-family: "Druk Wide Bold";
+  font-size: 24px;
 }
 
 section:nth-child(1) {
-  background-color: dodgerblue;
-  
-}
-section:nth-child(2) {
-  background-color: yellow;
-}
-section:nth-child(3) {
-  background-color: green;
+  background-color: #d9d9d9;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }

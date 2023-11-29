@@ -11,7 +11,10 @@
   --primary-color: #343434;
   --secondary-color: #121213;
 
+  --grey-600: #7c7c7c;
+
   --color-creamson: #fff0de;
+  /* font-size: 100%; */
 }
 * {
   margin: 0;
@@ -20,15 +23,9 @@
   scroll-behavior: smooth;
 }
 body {
-  max-width: 1280px;
   margin: 0 auto;
-  background-color: var(--color-creamson); /*medehguie background ni tng hrgdd bsi */
 }
 a {
   text-decoration: none;
   color: inherit;
-}
-p {
-  font-family: var(--nunito);
-  font-weight: 900;
 }
