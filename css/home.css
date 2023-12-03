@@ -182,6 +182,7 @@ nav {
 }
 
 .cat-text__first p {
+    color: var(--secondary-color);
     font-family: "Druk Wide Bold";
     font-size: 24px;
 }
@@ -336,7 +337,7 @@ section:nth-child(2) {
 ::-webkit-scrollbar {
     height: 4px;
     width: 4px;
-    background: gray;
+    background: var(--primary-color);
 }
 
 ::-webkit-scrollbar-track {
@@ -352,6 +353,6 @@ section:nth-child(2) {
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
-    background: #000;
+    background: var(--primary-color);
     border-radius: 10px;
 }
