@@ -78,12 +78,12 @@ nav {
 }
 
 .title-r {
-  font-family: "Druk Wide Bold";
+  font-family: "Integral cf Bold";
   display: flex;
   align-items: center;
   flex-direction: column;
-  font-size: 170px;
-  padding: 50px 0 0 0;
+  font-size: 210px;
+  padding: 20px 0 0 0;
 }
 
 .title-r div {
@@ -100,7 +100,7 @@ nav {
 
 .texts p {
   width: 200px;
-  font-family: "Neue Plak Extended";
+  font-family: "Integral cf";
   line-height: 18px;
 }
 
@@ -193,7 +193,8 @@ nav {
 }
 
 .new__text__2 {
-  padding: 20px;
+  padding-top: 50px;
+  padding-bottom: 25px;
   display: flex;
   justify-content: center;
 }
@@ -334,9 +335,9 @@ section:nth-child(2) {
   font-size: 35px;
 }
 
-/* .nav_text2 {
-  font-family: ;
-} */
+.nav_text3 {
+  font-family: "Druk Wide Bold", sans-serif;
+}
 
 .menu {
   font-family: "Druk Wide Bold", sans-serif;
@@ -348,6 +349,62 @@ section:nth-child(2) {
   display: flex;
   flex-direction: row;
   padding: 50px 70px;
+}
+
+.btn__Explore {
+  padding: 60px;
+}
+
+.btn__text {
+  font-size: 15px;
+  line-height: normal;
+  font-family: "Druk Wide Bold", sans-serif;
+  color: var(--secondary-color);
+  display: flex;
+  justify-items: center;
+}
+
+.btn_border {
+  width: 306px;
+  height: 44px;
+
+  border-radius: 20px;
+  border: 1px solid var(--lil-bit-whiteish-grey, #afafaf);
+  background: var(--text-primary, #343434);
+  margin: auto;
+}
+.hr {
+  color: var(--text-color-black);
+}
+
+.hr {
+  height: 2.5px;
+  border-radius: 1.75px;
+  width: 96%;
+  background-color: black;
+  margin: auto;
+}
+
+.footer__first {
+  margin-top: 70px;
+  margin-left: 25px;
+}
+
+.embrace {
+  color: #d3d3d3;
+  font-family: "Druk Wide Bold", sans-serif;
+}
+
+.Lady {
+  font-family: "Neue Plak Extended";
+  font-size: 12px;
+  color: #7c7c7c;
+  padding-top: 5px;
+}
+
+.connect {
+  display: flex;
+  flex-direction: row;
 }
 
 ::-webkit-scrollbar {
