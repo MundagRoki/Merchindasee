@@ -3,5 +3,8 @@
 // const container = document.querySelector("body");
 
 const scrollHandler = (event) => {
-  console.log(event);
+    console.log(event);
 };
+
+var love = "Hairtai juu"
+console.log(love);
