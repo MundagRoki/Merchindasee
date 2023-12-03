@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(108, 17, 15);
+}
+
 section {
   height: 100vh;
   width: 100%;
@@ -348,6 +352,6 @@ section:nth-child(2) {
 }
 
 ::-webkit-scrollbar-thumb:horizontal {
-  background: var(--primary-color);
+  background: #000;
   border-radius: 10px;
 }
