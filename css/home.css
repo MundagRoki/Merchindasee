@@ -3,9 +3,6 @@ section {
   width: 100%;
   padding: 30px 48px 24px 48px;
 }
-/* main { */
-/* position: relative; */
-/* } */
 nav {
   width: 100%;
 }
@@ -22,7 +19,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0 8px;
-  background-color: #bbbbbb;
+  background-color: var(--fading-ruby);
   border-radius: 20px;
   width: 140px;
   height: 40px;
@@ -32,6 +29,7 @@ nav {
   font-size: 9px;
   margin-left: 6px;
   font-family: "Druk Wide Bold", sans-serif;
+  color: var(--secondary-color);
 }
 
 .btn {
@@ -126,6 +124,10 @@ nav {
   font-size: 20px;
 }
 
+.hero_main {
+  background-color: var(--primary-color);
+}
+
 .first__text {
   display: flex;
   flex-direction: column;
@@ -161,7 +163,7 @@ nav {
 }
 
 section:nth-child(1) {
-  background-color: #d9d9d9;
+  background-color: var(--primary-color);
   display: flex;
   flex-direction: column;
   justify-content: space-between;
