@@ -1,296 +1,323 @@
 section {
-  height: 100vh;
-  width: 100%;
-  padding: 30px 48px 24px 48px;
+    height: 100vh;
+    width: 100%;
+    padding: 30px 48px 24px 48px;
 }
+
 nav {
-  width: 100%;
+    width: 100%;
 }
+
 .nav-row-1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .try-btn {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 8px;
-  background-color: var(--fading-ruby);
-  border-radius: 20px;
-  width: 140px;
-  height: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+    background-color: var(--fading-ruby);
+    border-radius: 20px;
+    width: 140px;
+    height: 40px;
 }
 
 .try-btn p {
-  font-size: 9px;
-  margin-left: 6px;
-  font-family: "Druk Wide Bold", sans-serif;
-  color: var(--secondary-color);
+    font-size: 9px;
+    margin-left: 6px;
+    font-family: "Druk Wide Bold", sans-serif;
+    color: var(--secondary-color);
 }
 
 .btn {
-  border-radius: 50%;
-  padding: 8;
-  background-color: white;
-  width: 30px;
-  height: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
+    border-radius: 50%;
+    padding: 8;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
 }
 
 .hambaagaa {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  background-color: black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .sticky {
-  position: fixed;
-  right: 48px;
+    position: fixed;
+    right: 48px;
 }
 
 .text-bold {
-  font-family: "Neue Plak Extended";
-  font-size: 12px;
-  font-weight: 780;
+    font-family: "Neue Plak Extended";
+    font-size: 12px;
+    font-weight: 780;
 }
 
 .title-r {
-  font-family: "Druk Wide Bold";
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  font-size: 153px;
-  padding: 35px 0;
+    font-family: "Druk Wide Bold";
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 153px;
+    padding: 35px 0;
 }
 
 .title-r div {
-  height: 2.5px;
-  border-radius: 1.75px;
-  width: 100%;
-  background-color: black;
+    height: 2.5px;
+    border-radius: 1.75px;
+    width: 100%;
+    background-color: black;
 }
 
 .texts {
-  display: flex;
-  justify-content: flex-start;
+    display: flex;
+    justify-content: flex-start;
 }
 
 .texts p {
-  width: 200px;
-  font-family: "Neue Plak Extended";
-  line-height: 18px;
+    width: 200px;
+    font-family: "Neue Plak Extended";
+    line-height: 18px;
 }
+
 .texts p:nth-child(1) {
-  margin-right: 150px;
+    margin-right: 150px;
 }
 
 .mouse__container {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .mouse {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .fashion-index {
-  position: absolute;
-  display: flex;
-  right: 20%;
-  bottom: 10%;
+    position: absolute;
+    display: flex;
+    right: 20%;
+    bottom: 10%;
 }
 
 .fashion-index p {
-  font-family: "Druk Wide Bold";
-  font-size: 12px;
+    font-family: "Druk Wide Bold";
+    font-size: 12px;
 }
 
 .nav__red {
-  font-family: "Druk Wide Bold";
-  margin-top: 2%;
-  font-size: 20px;
-  color: var(--secondary-color);
+    font-family: "Druk Wide Bold";
+    margin-top: 2%;
+    font-size: 20px;
+    color: var(--secondary-color);
 }
 
 .hero_main {
-  background-color: var(--primary-color);
+    background-color: var(--primary-color);
 }
 
 .first__text {
-  display: flex;
-  flex-direction: column;
-  margin-top: 10%;
-  margin-left: 58%;
-  color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    margin-left: 58%;
+    color: var(--secondary-color);
 }
 
 .second__text {
-  margin-top: 25%;
-  margin-left: 8%;
-  color: var(--secondary-color);
+    margin-top: 25%;
+    margin-left: 8%;
+    color: var(--secondary-color);
 }
 
 .mouse {
-  color: var(--secondary-color);
+    color: var(--secondary-color);
 }
 
 .first {
-  font-family: "Neue Plak Extended";
-  font-size: 12px;
+    font-family: "Neue Plak Extended";
+    font-size: 12px;
 }
 
 .second {
-  font-family: "Druk Wide Bold";
-  font-size: 30px;
+    font-family: "Druk Wide Bold";
+    font-size: 30px;
 }
 
 .third {
-  font-family: "Neue Plak Extended";
+    font-family: "Neue Plak Extended";
 }
 
 .cat-text__first {
-  margin: 50px 30px 0;
+    margin: 50px 30px 0;
 }
 
 .new__text {
-  padding: 20px;
+    padding: 20px;
 }
 
 .cat-text__first p {
-  font-family: "Druk Wide Bold";
-  font-size: 24px;
+    font-family: "Druk Wide Bold";
+    font-size: 24px;
 }
 
 section:nth-child(1) {
-  background-color: var(--primary-color);
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    background-color: var(--primary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 section:nth-child(2) {
-  height: 150vh;
-  background-color: var(--primary-color);
+    height: 150vh;
+    background-color: var(--primary-color);
 }
 
 .list__items {
-  display: flex;
-  flex-direction: row;
-  overflow-x: scroll;
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
 }
 
 .list__items__2 {
-  display: flex;
-  flex-direction: column;
-  overflow-x: scroll;
+    display: flex;
+    flex-direction: column;
+    overflow-x: scroll;
 }
 
 .items {
-  display: flex;
-  flex-direction: column;
-  margin: 0 16px;
-  flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 0 16px;
+    flex: 1;
 }
 
 .items p {
-  font-size: 12px;
-  margin: 10px;
+    font-size: 12px;
+    margin: 10px;
 }
 
 .items__image {
-  border-radius: 20px;
-  height: 330px;
-  width: 300px;
+    border-radius: 20px;
+    height: 330px;
+    width: 300px;
 }
 
 .text__2 {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .nav__modal {
-  display: none;
-  height: 100vh;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  justify-content: center;
-  align-items: center;
-  padding: 44px 39px;
+    display: none;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+    padding: 44px 39px;
 }
 
 .nav__container {
-  height: 100%;
-  width: 100%;
-  background-color: #78110e;
-  border-radius: 24px;
+    height: 100%;
+    width: 100%;
+    background-color: #78110e;
+    border-radius: 24px;
 }
 
 .circle {
-  height: 35px;
-  width: 35px;
-  border-radius: 50%;
-  background-color: #ffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .nav__container p {
-  color: #ffff;
+    color: #ffff;
 }
 
 .nav_first {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 50px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 70px;
 }
 
 .hambagur {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .nav_text {
-  font-family: "Druk Wide Bold", sans-serif;
-  font-size: 20px;
+    font-family: "Druk Wide Bold", sans-serif;
+    font-size: 20px;
 }
 
 .nav_text2 {
-  font-family: "Druk Wide Bold", sans-serif;
-  font-size: 35px;
+    font-family: "Druk Wide Bold", sans-serif;
+    font-size: 35px;
 }
+
 
 /* .nav_text2 {
   font-family: ;
 } */
 
 .menu {
-  font-family: "Druk Wide Bold", sans-serif;
-  font-size: 10px;
-  margin: 10px;
+    font-family: "Druk Wide Bold", sans-serif;
+    font-size: 10px;
+    margin: 10px;
 }
 
 .nav_second {
-  display: flex;
-  flex-direction: row;
-  padding: 50px 70px;
+    display: flex;
+    flex-direction: row;
+    padding: 50px 70px;
+}
+
+::-webkit-scrollbar {
+    height: 4px;
+    width: 4px;
+    background: gray;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: #000;
+    border-radius: 10px;
 }
