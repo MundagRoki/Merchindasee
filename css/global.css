@@ -8,9 +8,11 @@
   --montserrat: "Montserrat, sans-serif", sans-serif;
   --nunito: "Nunito", sans-serif;
 
-  --primary-color: #343434;
-  --secondary-color: #121213;
+  --primary-color: #78110e;
+  --secondary-color: #ffffff;
+  --text-color-black: #000000;
 
+  --fading-ruby: #520c09;
   --grey-600: #7c7c7c;
 
   --color-creamson: #fff0de;
