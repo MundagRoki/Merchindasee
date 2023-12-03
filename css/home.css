@@ -72,9 +72,8 @@ nav {
 }
 
 .text-bold {
-  font-family: "Neue Plak Extended";
+  font-family: "Neue Plak Extended Black";
   font-size: 12px;
-  font-weight: 780;
 }
 
 .title-r {
@@ -83,7 +82,6 @@ nav {
   align-items: center;
   flex-direction: column;
   font-size: 210px;
-  padding: 20px 0 0 0;
 }
 
 .title-r div {
@@ -101,7 +99,9 @@ nav {
 .texts p {
   width: 200px;
   font-family: "Integral cf";
-  line-height: 18px;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2%;
 }
 
 .texts p:nth-child(1) {
@@ -112,6 +112,8 @@ nav {
 .mouse__container {
   display: flex;
   justify-content: center;
+  font-family: "Neue Plak Extended Semi";
+  font-size: 12px;
 }
 
 .mouse {
@@ -162,21 +164,22 @@ nav {
 }
 
 .first {
-  font-family: "Neue Plak Extended";
+  font-family: "Neue Plak Extended Semi";
   font-size: 12px;
 }
 
 .second {
-  font-family: "Druk Wide Bold";
+  font-family: "Integral cf Demi Bold";
   font-size: 30px;
 }
 
 .third {
-  font-family: "Neue Plak Extended";
+  font-family: "Neue Plak Extended Semi";
+  font-size: 15px;
 }
 
 .third__num {
-  font-family: "Neue Plak Extended";
+  font-family: "Neue Plak Extended Semi";
   font-size: 12px;
   color: var(--secondary-color);
   margin: auto;
@@ -189,7 +192,7 @@ nav {
 }
 
 .new__text {
-  padding: 20px;
+  padding: 10px;
 }
 
 .new__text__2 {
@@ -201,8 +204,9 @@ nav {
 
 .cat-text__first p {
   color: var(--secondary-color);
-  font-family: "Druk Wide Bold";
+  font-family: "Integral cf Demi Bold";
   font-size: 32px;
+  line-height: 30px;
 }
 
 .product__section {
@@ -229,15 +233,6 @@ section:nth-child(2) {
 .market__items {
   display: flex;
   flex-wrap: wrap;
-}
-
-.market__items .items {
-  flex: 0 0 24%;
-  max-width: 24%;
-}
-
-.market__items .items .items__image {
-  border-radius: 20px;
 }
 
 .list__items {
@@ -267,9 +262,7 @@ section:nth-child(2) {
 }
 
 .items__image {
-  border-radius: 20px;
-  /* height: 330px;
-    width: 300px; */
+  border-radius: 15px;
 }
 
 .text__2 {
@@ -331,8 +324,9 @@ section:nth-child(2) {
 }
 
 .nav_text2 {
-  font-family: "Druk Wide Bold", sans-serif;
-  font-size: 35px;
+  font-family: "Integral cf Extra Bold", sans-serif;
+  font-size: 50px;
+  letter-spacing: 1px;
 }
 
 .nav_text3 {
@@ -340,15 +334,16 @@ section:nth-child(2) {
 }
 
 .menu {
-  font-family: "Druk Wide Bold", sans-serif;
-  font-size: 10px;
+  font-family: "Integral cf Extra Bold", sans-serif;
+  letter-spacing: 1px;
+  font-size: 12px;
   margin: 10px;
 }
 
 .nav_second {
   display: flex;
   flex-direction: row;
-  padding: 50px 70px;
+  padding: 10px 70px;
 }
 
 .btn__Explore {
@@ -356,12 +351,11 @@ section:nth-child(2) {
 }
 
 .btn__text {
-  font-size: 15px;
-  line-height: normal;
-  font-family: "Druk Wide Bold", sans-serif;
+  font-size: 14px;
+  font-family: "Integral cf Demi Bold", sans-serif;
   color: var(--secondary-color);
-  display: flex;
-  justify-items: center;
+  margin-left: 94px;
+  margin-top: 10px;
 }
 
 .btn_border {
@@ -392,14 +386,16 @@ section:nth-child(2) {
 
 .embrace {
   color: #d3d3d3;
-  font-family: "Druk Wide Bold", sans-serif;
+  font-family: "Integral cf Demi Bold", sans-serif;
+  line-height: 20px;
+  font-size: 20px;
 }
 
 .Lady {
-  font-family: "Neue Plak Extended";
-  font-size: 12px;
+  font-family: "Neue Plak Extended Black";
+  font-size: 10px;
   color: #7c7c7c;
-  padding-top: 5px;
+  padding-top: 11px;
 }
 
 .connect {
